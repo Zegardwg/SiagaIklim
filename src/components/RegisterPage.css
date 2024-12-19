@@ -1,0 +1,10 @@
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #f0f8ff;
+  }
+  
+  /* Gunakan CSS yang sama seperti LoginPage, atau sesuaikan */
+  

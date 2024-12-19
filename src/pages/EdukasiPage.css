@@ -1,0 +1,144 @@
+/* EdukasiPage.css */
+
+/* Container utama */
+.edukasiPage {
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #537fec, #ffffff); /* Gradasi lembut biru muda ke putih */
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Judul Halaman */
+  .pageTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  .pageSubtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Bagian Artikel */
+  .articles {
+    margin-bottom: 40px;
+  }
+  
+  .articleContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Jarak antar kartu lebih renggang */
+    flex-wrap: wrap;
+  }
+  
+  .articleCard {
+    background: linear-gradient(to bottom right, #ffffff, #e0f7fa); /* Gradasi putih ke biru lembut */
+    width: 270px; /* Ukuran kartu lebih seragam */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .articleCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .articleImage {
+    width: 100%; /* Gambar menyesuaikan lebar kotak */
+    height: auto;
+    max-height: 120px; /* Tinggi maksimum */
+    margin-bottom: 15px;
+    object-fit: contain;
+    border-radius: 5px;
+    border: 2px solid #b3e5fc; /* Bingkai lembut pada gambar */
+  }
+  
+  .articleTitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .articleContent {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Bagian Kuis */
+  .quiz {
+    background: linear-gradient(to bottom right, #ffffff, #f3e5f5); /* Gradasi putih ke pink lembut */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px auto;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .quizContainer .question {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .optionButton {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .optionButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .quizResult h3 {
+    font-size: 1.5rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .quizResult p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .restartButton {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .restartButton:hover {
+    background-color: #218838;
+  }
+  
+  /* Hover efek pada artikel */
+  .articleCard:hover .articleTitle {
+    color: #0056b3; /* Biru lebih gelap saat di-hover */
+  }
+  
